@@ -5,7 +5,7 @@ owl:
     git:
       enabled: true
       repository:
-        url: https://github.com/cloudhut/topic-docs
+        url: https://github.com/copartit/search-indexer.git
         branch: master
       # How often Kowl shall pull the repository to look for new files. Set 0 to disable periodic pulls
       refreshInterval: 1m
@@ -14,7 +14,7 @@ owl:
       basicAuth:
         enabled: true
         username: token
-        # password: #  This can be set via the via the --owl.topic-documentation.git.basic-auth.password flag as well
+        #password: #  This can be set via the via the --owl.topic-documentation.git.basic-auth.password flag as well
       # SSH Auth
       # You can either pass the private key file directly via flag or yaml config or refer to a mounted key file
       ssh:
